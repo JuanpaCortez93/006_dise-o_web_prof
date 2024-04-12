@@ -1,0 +1,245 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 62.5%; }
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  min-width: 320px;
+  margin: auto;
+  overflow: hidden; }
+
+header {
+  width: 100%;
+  background: url("../static/img/bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center 0; }
+  header .container {
+    position: relative;
+    height: 700px; }
+  header .menu {
+    width: 100%;
+    text-align: right; }
+    header .menu a {
+      color: #fff;
+      font-size: 2em;
+      font-weight: 300;
+      display: inline-block;
+      margin: 40px 20px;
+      text-decoration: none;
+      position: relative; }
+    header .menu a:hover {
+      text-decoration: underline; }
+  header .text {
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    margin-top: -52px; }
+    header .text .name {
+      font-size: 5em;
+      font-weight: 400; }
+      header .text .name span {
+        font-weight: 600; }
+    header .text h2 {
+      font-size: 2.5em;
+      font-weight: 300;
+      font-style: italic; }
+
+main {
+  background: url("../static/img/bg-textura.png");
+  background-repeat: repeat; }
+  main .about .container {
+    overflow: visible;
+    position: relative; }
+  main .about .photo {
+    width: 80%;
+    position: absolute;
+    left: 0;
+    top: -50px;
+    z-index: 0;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35); }
+    main .about .photo img {
+      vertical-align: top;
+      width: 100%; }
+  main .about article {
+    background-color: #fff;
+    padding: 40px;
+    width: 50%;
+    position: relative;
+    top: 0px;
+    float: right;
+    z-index: 1;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35); }
+    main .about article h3 {
+      font-size: 5.6em;
+      font-weight: 600;
+      margin-bottom: 40px; }
+    main .about article p {
+      font-size: 1.6em;
+      line-height: 1.5em;
+      margin-bottom: 40px; }
+
+main .menu {
+  padding-top: 540px;
+  margin-bottom: 50px; }
+  main .menu .title {
+    font-size: 4em;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px; }
+  main .menu .menu-container-ext, main .menu .menu-container-int {
+    border: 1px solid #000;
+    border-radius: 8px;
+    background: transparent;
+    padding: 10px;
+    overflow: hidden; }
+  main .menu article {
+    width: 50%;
+    float: left;
+    padding: 20px; }
+    main .menu article .category {
+      font-size: 2.2em;
+      font-weight: 700;
+      margin-bottom: 40px;
+      text-align: center; }
+    main .menu article .dish {
+      margin-bottom: 30px;
+      padding-bottom: 20px;
+      border-bottom: 4px dotted black;
+      overflow: hidden; }
+      main .menu article .dish .name {
+        font-size: 2em;
+        margin-bottom: 15px;
+        float: left; }
+      main .menu article .dish .price {
+        font-size: 2.2em;
+        margin-bottom: 15px;
+        float: right; }
+      main .menu article .dish .description {
+        font-size: 1.6em;
+        color: #676767;
+        clear: both; }
+
+main .gallery {
+  overflow: hidden; }
+  main .gallery .photo {
+    width: 25%;
+    float: left; }
+    main .gallery .photo img {
+      width: 100%;
+      vertical-align: top;
+      opacity: .7; }
+    main .gallery .photo img:hover {
+      opacity: 1;
+      transition: all .3 ease; }
+
+main .location {
+  background-color: #fff;
+  padding: 20px 0;
+  overflow: hidden; }
+  main .location .title {
+    font-size: 4em;
+    text-align: center;
+    line-height: 4em;
+    font-weight: 600;
+    margin-bottom: 40px; }
+  main .location .address {
+    float: left;
+    width: 50%;
+    text-align: left; }
+    main .location .address .street, main .location .address .telephone, main .location .address .correo {
+      font-size: 1.6em; }
+    main .location .address .street {
+      margin-bottom: 15px; }
+  main .location .schedule {
+    float: right;
+    width: 50%;
+    text-align: right;
+    margin-bottom: 50px;
+    font-size: 1.6em; }
+    main .location .schedule h4 {
+      text-align: center;
+      margin-bottom: 20px; }
+    main .location .schedule .laboral, main .location .schedule .weekend {
+      width: 50%;
+      float: left;
+      text-align: center; }
+  main .location .map {
+    width: 100%;
+    overflow: hidden; }
+    main .location .map iframe {
+      width: 100%;
+      max-height: 600px; }
+
+footer {
+  background-color: #000; }
+  footer .copyright {
+    text-align: center;
+    padding: 15px 0;
+    color: white; }
+    footer .copyright p {
+      font-size: 1.6em;
+      font-weight: 600; }
+
+@media screen and (max-width: 800px) {
+  header .container {
+    position: static;
+    height: auto; }
+  header .text {
+    position: static;
+    margin: 100px 0; }
+    header .text .name {
+      font-size: 3em; }
+    header .text h3 {
+      font-size: 1.8em; }
+  header .menu {
+    text-align: center; }
+    header .menu a {
+      margin: 10px 20px; }
+
+  main .about article {
+    position: relative;
+    width: 100%;
+    top: -50px;
+    transform: translate(0px, 0); }
+  main .about .photo {
+    width: 100%;
+    position: relative;
+    top: 10px; }
+  main .menu {
+    padding-top: 200px; }
+    main .menu article {
+      width: 100%; }
+  main .gallery .photo {
+    width: 50%; }
+  main .map {
+    width: 80%;
+    margin: auto; } }
+@media screen and (max-width: 400px) {
+  header .menu a {
+    font-size: 1.4em; }
+
+  main .about article h3 {
+    font-size: 1.4em;
+    margin-bottom: 10px; }
+  main .about article p {
+    font-size: 1em; }
+  main .menu article .name, main .menu article .price {
+    font-size: 1.6em;
+    line-height: 1.6em; }
+  main .location .title {
+    margin-bottom: 10px; }
+  main .location .address {
+    margin-bottom: 25px; }
+  main .location .address, main .location .schedule {
+    width: 100%;
+    text-align: center; } }
+
+/*# sourceMappingURL=main.css.map */

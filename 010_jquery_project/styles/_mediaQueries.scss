@@ -1,0 +1,122 @@
+@media screen and (max-width: 800px) {
+    header {
+        .container {
+            position: static;
+            height: auto;
+        }
+
+        .text {
+            position: static;
+            margin: 100px 0;
+
+            .name {
+                font-size: 3em;
+            }
+
+            h3 {
+                font-size: 1.8em;
+            }
+        }
+
+        .menu {
+            text-align: center;
+
+            a {
+                margin: 10px 20px;
+            }
+        }
+
+    }
+
+    main {
+
+        .about {
+
+            article {
+                position: relative;
+                width: 100%;
+                top: -50px;
+                transform: translate(0px, 0);
+            }
+
+            .photo {
+                width: 100%;
+                position: relative;
+                top: 10px;
+            }
+        }
+
+        .menu {
+            padding-top: 200px;
+
+            article {
+                width: 100%;
+            }
+        }
+
+        .gallery .photo {
+            width: 50%;
+        }
+
+        .map {
+            width: 80%;
+            margin: auto;
+        }
+
+    }
+
+}
+
+
+@media screen and (max-width: 400px) {
+    
+    header {
+        .menu {
+            a {
+                font-size: 1.4em;
+            }
+        }
+
+
+    }
+    
+    main {
+        .about {
+            article {
+                h3 {
+                    font-size: 1.4em;
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    font-size: 1em;
+                }
+            }
+        }
+
+        .menu {
+            article {
+                .name, .price {
+                    font-size: 1.6em;
+                    line-height: 1.6em;
+                }
+            }
+        }
+
+        .location {
+
+            .title {
+                margin-bottom: 10px;
+            }
+
+            .address {
+                margin-bottom: 25px;
+            }
+
+            .address, .schedule {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
+}

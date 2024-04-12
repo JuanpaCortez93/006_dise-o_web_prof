@@ -1,0 +1,50 @@
+main {
+    background: url('../static/img/bg-textura.png');
+    background-repeat: repeat;
+
+    .about {
+
+        .container {
+            overflow: visible;
+            position: relative;
+        }
+        
+        .photo {
+            width: 80%;
+            position: absolute;
+            left: 0;
+            top: -50px;
+            z-index: 0;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35);
+
+            img {
+                vertical-align: top;
+                width: 100%;
+            }
+
+        }
+
+        article{
+            background-color: #fff;
+            padding: 40px;
+            width: 50%;
+            position: relative;
+            top: 0px;
+            float: right;
+            z-index: 1;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35);
+
+            h3 {
+                font-size: 5.6em;
+                font-weight: 600;
+                margin-bottom: 40px;
+            }
+
+            p {
+                font-size: 1.6em;
+                line-height: 1.5em;
+                margin-bottom: 40px;
+            }
+        }
+    }
+}

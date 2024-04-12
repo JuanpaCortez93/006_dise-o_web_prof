@@ -1,0 +1,60 @@
+main {
+    .location {
+        background-color: #fff;
+        padding: 20px 0;
+        overflow: hidden;
+
+        .title {
+            font-size: 4em;
+            text-align: center;
+            line-height: 4em;
+            font-weight: 600;
+            margin-bottom: 40px;
+        }
+
+        .address {
+            float: left;
+            width: 50%;
+            text-align: left;
+
+            .street, .telephone, .correo {
+                font-size: 1.6em;
+            }
+
+            .street {
+                margin-bottom: 15px;
+            }
+
+        }
+
+        .schedule {
+            float: right;
+            width: 50%;
+            text-align: right;
+            margin-bottom: 50px;
+            font-size: 1.6em;
+
+            h4 {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            .laboral, .weekend {
+                width: 50%;
+                float: left;
+                text-align: center;
+            }
+        }
+
+        .map {
+            width: 100%;
+            overflow: hidden;
+
+            iframe {
+                width: 100%;
+                max-height: 600px;
+            }
+        }
+
+    }
+}
