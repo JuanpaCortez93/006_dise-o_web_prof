@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in Bootstrap</title>
+
+    <link rel="stylesheet" href="../modules/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <form action="">
+                    <div class="form-group mb-3">
+                        <label for="correo" class="form-label">Correo Electronico</label>
+                        <input type="text" class="form-control" id="correo" aria-describedby="ayuda-correo" placeholder="Insert your e-mail here">
+                        <div id="ayuda-correo" class="form-text">
+                            We send you an email confirmation
+                        </div>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea type="text" id="mensaje" aria-describedby="ayuda-mensaje" class="form-control" placeholder="Enter your message here"></textarea>
+                        <div class="form-text" id="form-control">
+                            We send you an message confirmation
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Submit this form</button>
+
+                </form>
+            </div>
+
+            <div class="col-6">
+                <input type="text" name="" id="" class="form-control form-control-lg mb-3" placeholder="Large input"> 
+                <input type="text" name="" id="" class="form-control form-control-sm mb-3" placeholder="Small input"> 
+                <input type="text" name="" id="" class="form-control mb-3" placeholder="Disabled input" disabled> 
+                <input type="text" name="" id="" class="form-control mb-3" placeholder="Readonly input" readonly> 
+                <input type="text" name="" id="" class="form-control-plaintext mb-3" placeholder="Plaintext input" readonly> 
+                <input type="file" name="" id="" class="form-control">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../modules/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

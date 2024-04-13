@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Grid</title>
+
+    <link rel="stylesheet" href="../modules/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    
+</head>
+<body>
+    
+    
+    <div class="container">
+    
+        <header class="row">
+            <h1>Header</h1>
+            <p>12 columns</p>
+        </header>
+
+        <div class="main-container row">
+            <main class="col-md-8">
+                <h2>Main</h2>
+                <p class="d-none d-md-block">8 columns</p>
+                <p class="d-block d-md-none">12 columns</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione maiores distinctio optio, nam eum cum iste odio sit alias et voluptas expedita atque architecto, explicabo pariatur repellendus quidem tenetur amet.</p>
+            </main>
+
+            <aside class="col-md-4">
+                <h3>Aside</h3>
+                <p class="d-none d-md-block">4 columns</p>
+                <p class="d-block d-md-none">12 columns</p>
+            </aside>
+        </div>
+    
+
+        <div class="row widgets justify-content-around">
+
+            <div class="col-12 col-md-4 col-lg-3">
+                <p class="d-none d-lg-block">3 columns</p>
+                <p class="d-none d-md-block d-lg-none">4 columns</p>
+                <p class="d-block d-md-none d-lg-none">12 columns</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione maiores distinctio optio, nam eum cum iste odio sit alias et voluptas expedita atque architecto, explicabo pariatur repellendus quidem tenetur amet.</p>
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-3">
+                <p class="d-none d-lg-block">3 columns</p>
+                <p class="d-none d-md-block d-lg-none">4 columns</p>
+                <p class="d-block d-md-none d-lg-none">12 columns</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione maiores distinctio optio, nam eum cum iste odio sit alias et voluptas expedita atque architecto, explicabo pariatur repellendus quidem tenetur amet.</p>
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-3">
+                <p class="d-none d-lg-block">3 columns</p>
+                <p class="d-none d-md-block d-lg-none">4 columns</p>
+                <p class="d-block d-md-none d-lg-none">12 columns</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione maiores distinctio optio, nam eum cum iste odio sit alias et voluptas expedita atque architecto, explicabo pariatur repellendus quidem tenetur amet.</p>
+            </div>
+
+        </div>
+
+        <footer class="row">
+            <div class="col">
+                <h4>Footer</h4>
+                <p>12 columns</p>
+            </div>
+        </footer>
+    
+    </div>
+
+    
+
+    <script src="../modules/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

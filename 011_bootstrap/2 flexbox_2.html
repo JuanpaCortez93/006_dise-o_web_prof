@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to Bootstrap</title>
+
+    <link rel="stylesheet" href="./modules/bootstrap/css/bootstrap.min.css">
+
+    <style>
+        .contenedor {
+            margin-bottom: 20px;
+            background: #0d6efd;
+            color: #fff;
+            height: 100px;
+        }
+
+        .contenedor > div {
+            background: rgba(255, 255, 255, .2);
+            padding: 15px;
+            border: 1px solid #0d6efd;
+
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row my-5">
+            <div class="col">
+                <h4>Fill</h4>
+                <hr>
+
+                <div class="contenedor d-flex align-items-start">
+                    <div>Lorem ipsum dolor sit amet.</div>
+                    <div class="flex-fill">.flex-fill</div>
+                    <div>.flex-fill</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row my-5">
+            <div class="col">
+                <h4>Align Items</h4>
+                <hr>
+
+                <p>align-items-start</p>
+                <div class="contenedor d-flex align-items-start">
+                    <div>Box 1</div>
+                    <div>Box 2</div>
+                    <div>Box 3</div>
+                </div>
+
+                <p>align-items-center</p>
+                <div class="contenedor d-flex align-items-center">
+                    <div>Box 1</div>
+                    <div>Box 2</div>
+                    <div>Box 3</div>
+                </div>
+
+                <p>align-items-end</p>
+                <div class="contenedor d-flex align-items-end">
+                    <div>Box 1</div>
+                    <div>Box 2</div>
+                    <div>Box 3</div>
+                </div>
+
+                <p>align-items-stretch</p>
+                <div class="contenedor d-flex align-items-stretch">
+                    <div>Box 1</div>
+                    <div>Box 2</div>
+                    <div>Box 3</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row my-5">
+            <h4>Align Self</h4>
+            <hr>
+
+            <div class="contenedor d-flex">
+                <div class="align-self-start">.align-self-start</div>
+                <div class="align-self-center">.align-self-center</div>
+                <div class="align-self-end">.align-self-end</div>
+                <div class="align-self-baseline">.align-self-baseline</div>
+                <div class="align-self-stretch">.align-self-stretch</div>
+            </div>
+
+        </div>
+
+        <div class="row my-5">
+            <h5>Auto-Margins</h5>
+            <hr>
+
+            <div class="contenedor d-flex justify-content-end">
+                <div class="me-auto">Box 1</div>
+                <div>Box 2</div>
+                <div>Box 3</div>
+            </div>
+
+            <div class="contenedor d-flex justify-content-start">
+                <div>Box 1</div>
+                <div>Box 2</div>
+                <div class="ms-auto">Box 3</div>
+            </div>
+
+            <div class="contenedor d-flex flex-column align-items-start " style="height: 250px;">
+                <div class="mb-auto">Box 1</div>
+                <div>Box 2</div>
+                <div>Box 3</div>
+            </div>
+
+            <div class="contenedor d-flex flex-column align-items-end " style="height: 250px;">
+                <div>Box 1</div>
+                <div>Box 2</div>
+                <div class="mt-auto">Box 3</div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./modules/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
