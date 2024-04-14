@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to Bootstrap</title>
+
+    <link rel="stylesheet" href="./modules/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    
+    <nav class="navbar nav-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">Navbar</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Mostrar/Ocultar"><span class="navbar-toggler-icon"></span></button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav me-auto mb-2">
+                    <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+                    <li class="nav-item dropup">
+                        <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Categories
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdown-menu">
+                            <li class="dropdown-item">Elemento 1</li>
+                            <li class="dropdown-item">Elemento 2</li>
+                            <li class="dropdown-item">Elemento 3</li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+                </ul>
+
+                <form action="" class="d-flex">
+                    <input type="search" name="" id="" class="form-control me-2" placeholder="Search..." aria-label="Buscar">
+                    <button class="btn btn-primary" type="button">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <script src="./modules/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
