@@ -18,7 +18,7 @@ This repository covers the following topics:
 
 6. **jQuery**: Learn to use the jQuery library to simplify the development of interactive and dynamic web applications.
 
-7. **Bootstrap 5**: More than 6 hours to master the Bootstrap 5 front-end framework for rapid and responsive website and application design.
+7. **Bootstrap 5**: More than 6 hours to master the Bootstrap 5 front-end framework for rapid and responsive website and application design including a Start-Up Landing Page with SASS.
 
 ## Hours of Knowledge and Projects
 
