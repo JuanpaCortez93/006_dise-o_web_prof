@@ -1,0 +1,84 @@
+@media screen and (max-width: 992px) {
+    header {
+        .contenedor_logo_menu {
+            .logo {
+                margin-bottom: 20px;
+                text-align: center;
+
+            }
+
+            .menu{
+                text-align: center;
+                a{
+                    margin: 0 20px;
+                }
+            }
+        }
+
+        .text {
+            margin: 50px 0;
+            font-size: 1.6em;
+
+            .first_title {
+                font-size: 1.5em;
+            }
+
+            .second_title {
+                font-size: 1.3em;
+            }
+
+            .btns-container {
+                margin: 10px 0;
+                a {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+
+    main {
+        #photos {
+            .photo {
+                .title {
+                    margin-top: 10px;
+                    text-align: center;
+                    font-size: 2.8em;
+                    line-height: 1.4em;
+                }
+
+                .paragraph {
+                    text-align: center;
+                }
+            }
+        }
+
+        #characteristics {
+            .icon {
+                width: 20%;
+            }
+        }
+
+        #clients {
+            .clients {
+                margin-bottom: 40px;
+            }
+        }
+
+        #prices {
+            .price {
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    footer {
+        .direction {
+            text-align: center;
+
+            .logo {
+                margin: 0;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 62.5%; }
+
+header {
+  background: url("../assets/img/bg.jpg");
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat; }
+  header .contenedor_logo_menu {
+    padding: 25px 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+    header .contenedor_logo_menu .logo a {
+      display: block; }
+      header .contenedor_logo_menu .logo a img {
+        vertical-align: top; }
+    header .contenedor_logo_menu .menu {
+      text-align: right;
+      line-height: 5em; }
+      header .contenedor_logo_menu .menu a {
+        color: #fff;
+        margin-left: 60px;
+        font-size: 1.8em;
+        text-decoration: none; }
+      header .contenedor_logo_menu .menu a:hover {
+        border-bottom: 1px solid #fff; }
+  header .text {
+    color: white;
+    text-align: center;
+    margin: 150px 0px; }
+    header .text .first_title, header .text .second_title {
+      font-weight: 300; }
+    header .text .first_title {
+      font-size: 3.5em;
+      line-height: 1.4em;
+      margin-bottom: 30px; }
+    header .text .second_title {
+      font-size: 2.5em;
+      line-height: 2.5em;
+      margin-bottom: 60px; }
+    header .text .btns-container {
+      margin: 50px 0; }
+      header .text .btns-container a {
+        border-radius: 4px;
+        border: 2px solid white;
+        color: white;
+        padding: 12px 0;
+        font-size: 1.6em;
+        font-weight: 600;
+        width: 235px;
+        display: inline-block;
+        text-align: center;
+        margin: 0 10px;
+        text-decoration: none; }
+      header .text .btns-container a:hover {
+        background: white;
+        color: #4f4f4f; }
+
+main #characteristics {
+  padding: 120px 0; }
+  main #characteristics .title {
+    text-align: center;
+    font-weight: 300;
+    font-size: 32px;
+    color: black;
+    margin-bottom: 70px;
+    margin-top: -150px; }
+  main #characteristics .characteristics {
+    text-align: center; }
+    main #characteristics .characteristics .icon {
+      vertical-align: top;
+      margin-bottom: 30px; }
+    main #characteristics .characteristics .first_line {
+      font-weight: 700;
+      margin-bottom: 30px;
+      font-size: 3em; }
+    main #characteristics .characteristics .paragraph {
+      margin-bottom: 30px;
+      font-size: 1.8em;
+      line-height: 1.4em; }
+main #photos {
+  margin-bottom: 70px; }
+  main #photos .photo {
+    margin-bottom: 20px; }
+    main #photos .photo .thumb img {
+      border-radius: 8px;
+      width: 100%;
+      vertical-align: top; }
+    main #photos .photo .title {
+      margin-top: 70px;
+      margin-bottom: 40px;
+      font-size: 3.2em;
+      line-height: 2em;
+      font-weight: 300; }
+    main #photos .photo .blue {
+      color: #4facd3; }
+    main #photos .photo .orange {
+      color: #ddb146; }
+    main #photos .photo .paragraph {
+      font-size: 1.6em;
+      line-height: 1.8em; }
+    main #photos .photo .right {
+      text-align: right; }
+main #clients {
+  background-color: #2d353e;
+  padding: 40px 0; }
+  main #clients .title {
+    text-align: center;
+    font-weight: 300;
+    font-size: 3.2em;
+    color: white;
+    margin-bottom: 40px; }
+  main #clients .clients {
+    text-align: center; }
+    main #clients .clients a {
+      display: block; }
+main #prices {
+  background: url("../assets/img/precios-bg.jpg"), #727171;
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  padding: 70px 0; }
+  main #prices .title {
+    text-align: center;
+    font-weight: 300;
+    font-size: 3.2em;
+    color: white;
+    margin-bottom: 70px; }
+  main #prices .plan {
+    background-color: white;
+    text-align: center;
+    padding: 50px 0px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35); }
+    main #prices .plan .name {
+      font-size: 3.2em;
+      line-height: 32px;
+      font-weight: 300;
+      margin-bottom: 30px; }
+    main #prices .plan .price {
+      font-weight: 600;
+      font-size: 4.8em;
+      margin-bottom: 30px; }
+    main #prices .plan .characteristics {
+      list-style: none;
+      padding: 0 20px;
+      margin-bottom: 50px; }
+      main #prices .plan .characteristics li {
+        font-size: 18px;
+        padding: 15px 0;
+        border-bottom: 1px solid #dedede; }
+      main #prices .plan .characteristics .btn {
+        width: 100%;
+        padding: 50px 0;
+        text-align: center;
+        display: inline-block;
+        border-radius: 100px; }
+    main #prices .plan.green .name, main #prices .plan.green .price {
+      color: #86b773; }
+    main #prices .plan.green .btn {
+      color: #86b773;
+      border: 2px solid #86b773;
+      border-radius: 8px; }
+    main #prices .plan.green .btn:hover {
+      background-color: #86b773;
+      color: white; }
+    main #prices .plan.active {
+      background: #4c8dce;
+      color: white; }
+      main #prices .plan.active .btn {
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 8px; }
+        main #prices .plan.active .btn:hover {
+          background-color: #4c8dce;
+          color: white; }
+    main #prices .plan.orange .name, main #prices .plan.orange .price {
+      color: #ddb146; }
+    main #prices .plan.orange .btn {
+      color: #ddb146;
+      border: 2px solid #ddb146;
+      border-radius: 8px; }
+    main #prices .plan.orange .btn:hover {
+      background-color: #ddb146;
+      color: white; }
+main #reviews {
+  padding: 70px 0; }
+  main #reviews .title {
+    text-align: center;
+    font-weight: 300;
+    font-size: 3.2em;
+    color: #4facd3;
+    margin-bottom: 70px; }
+  main #reviews .clients {
+    overflow: hidden;
+    margin-bottom: 20px; }
+    main #reviews .clients .photo {
+      width: 20%;
+      float: left;
+      text-align: right; }
+      main #reviews .clients .photo img {
+        max-width: 100px;
+        width: 100%;
+        vertical-align: top;
+        border-radius: 50%; }
+    main #reviews .clients .review {
+      float: left;
+      width: 80%;
+      padding: 0px 30px;
+      margin-top: 20px; }
+      main #reviews .clients .review .text {
+        font-size: 1.8em;
+        line-height: 1em;
+        margin-bottom: 10px; }
+      main #reviews .clients .review .name {
+        color: #ddb146;
+        font-size: 1.4em; }
+    main #reviews .clients.right .photo {
+      float: right;
+      text-align: left; }
+    main #reviews .clients.right .review {
+      float: right;
+      text-align: right; }
+
+footer .direction {
+  background: #3c4045;
+  padding: 30px 0;
+  color: white; }
+  footer .direction .title {
+    font-size: 3.2em;
+    line-height: 1.8em;
+    font-weight: 300;
+    margin-bottom: 30px; }
+  footer .direction .address, footer .direction .telephone, footer .direction .email {
+    margin-bottom: 10px;
+    font-size: 1.2em; }
+  footer .direction .logo img {
+    margin-top: 70px; }
+footer .social {
+  text-align: center;
+  padding: 20px 0; }
+  footer .social a {
+    padding: 10px;
+    display: inline-block;
+    margin: 0 20px;
+    width: 50px;
+    font-size: 2.2em;
+    color: white;
+    background: #000;
+    border-radius: 100px; }
+    footer .social a:hover {
+      text-decoration: none; }
+    footer .social a.facebook {
+      background: #3b5998; }
+    footer .social a.youtube {
+      background: #cd201f; }
+    footer .social a.twitter {
+      background: #55acee; }
+    footer .social a.git {
+      background: #000; }
+
+@media screen and (max-width: 992px) {
+  header .contenedor_logo_menu .logo {
+    margin-bottom: 20px;
+    text-align: center; }
+  header .contenedor_logo_menu .menu {
+    text-align: center; }
+    header .contenedor_logo_menu .menu a {
+      margin: 0 20px; }
+  header .text {
+    margin: 50px 0;
+    font-size: 1.6em; }
+    header .text .first_title {
+      font-size: 1.5em; }
+    header .text .second_title {
+      font-size: 1.3em; }
+    header .text .btns-container {
+      margin: 10px 0; }
+      header .text .btns-container a {
+        margin-bottom: 20px; }
+
+  main #photos .photo .title {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 2.8em;
+    line-height: 1.4em; }
+  main #photos .photo .paragraph {
+    text-align: center; }
+  main #characteristics .icon {
+    width: 20%; }
+  main #clients .clients {
+    margin-bottom: 40px; }
+  main #prices .price {
+    margin-bottom: 20px; }
+
+  footer .direction {
+    text-align: center; }
+    footer .direction .logo {
+      margin: 0; } }
+
+/*# sourceMappingURL=index.css.map */
